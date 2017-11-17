@@ -24,6 +24,7 @@ public class FindCatFaceController {
 		Response rsp = new Response();
 		ArrayList<String> results = new ArrayList<String>();
 		results.add("CatFace Demo 1.0");
+		rsp.setResults(results);
 		return new ResponseEntity<Response>(rsp, HttpStatus.OK);
 	}
 	
