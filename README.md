@@ -8,8 +8,8 @@ How to run:
 
     Step 3: java -jar target/catface-rest-service-0.1.0.jar
 
-Info: the restful service will be running a
-t 
+Info: the restful service will be running at
+ 
     API Info endpoint: http://localhost:8080/api/v1/info
 
     API find cat endpoint: http://localhost:8080/api/v1/catface
